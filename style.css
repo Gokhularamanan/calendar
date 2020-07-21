@@ -1,0 +1,49 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.event
+{
+    padding-top: 150px;
+    padding-left:50px ;
+}
+
+
+
+#main-block
+{
+    float:right;
+    width:70%;
+    padding-top:180px;
+}
+#side-bar
+{
+    float: left;
+    background-color: #2dcc70;
+    width: 28%;
+    height:722px;
+    color: white;
+}
+h1
+{
+   font-family: Verdana;
+   padding-left: 80px;
+  
+}
+#navbar
+{
+    color: white;
+}
+
+p
+{
+    font-weight: 700;
+    font-size: 200px;
+    font-family: Verdana;
+    padding-left: 80px;
+}
+l
+{
+  text-decoration: underline;
+}
