@@ -1,0 +1,98 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.event
+{
+    padding-top: 150px;
+    padding-left:50px ;
+}
+
+
+
+#main-block 
+{
+    float:right;
+    width:70%;
+    
+}
+
+.calendar
+{
+    padding-top:160px;
+    padding-right: 10px;
+}
+
+
+#main-block year
+{
+    font-size: 40px;
+    float:right;
+    padding-right: 80px;
+    
+}
+#side-bar
+{
+    float: left;
+    background-color: #2dcc70;
+    width: 28%;
+    height:722px;
+    color: white;
+}
+h1
+{
+   font-family: Verdana;
+   padding-left: 80px;
+  
+}
+#navbar
+{
+    color: white;
+}
+
+
+#month
+{
+    border-bottom-width: 1.5px;
+    border-bottom-color: #7d8990;
+    border-bottom-style: solid;
+    margin: 0 auto;
+    
+} 
+
+a
+{
+    padding-left: 30px;
+    font-size: 20px;
+
+}
+event
+{
+    font-size: 28px;
+    padding-top: 100px;  
+   
+
+}
+
+p
+{
+    font-weight: 700;
+    font-size: 200px;
+    font-family: Verdana;
+    padding-left: 80px;
+    margin: 0 auto;
+}
+li
+{
+  padding-left:40px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  font-size: 20px;;
+}
+lin
+{
+  text-decoration: underline;
+  
+  
+}
