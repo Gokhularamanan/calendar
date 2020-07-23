@@ -3,22 +3,29 @@ body
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* .block
+{
+   margin:50px;
+   background-color: #2ecc71;
+} */
 
-#main-block 
+
+.main-block 
 {
     float:right;
     width:65%;
     
 }
 
-#year
+.year
 {
     font-weight: 700;
     font-family: Verdana;
     font-size: 40px;
     float:right;
     padding-right: 110px;
-    color:#cfd9db;
+    padding-top: 30px;
+    color:#e2e8ea;
 }
 #month
 {
@@ -29,10 +36,16 @@ body
     color:#a8babf;
     
 } 
+
+.highlighted-month
+{
+    color:#2dcc70;
+    font-weight:900;
+}
 #week
 {
     color:#a8babf;
-    font-family: Verdana;
+    font-family: roboto;
 }
 .calendar
 {
@@ -64,8 +77,9 @@ body
 #date-r5
 {
     padding-bottom: 10px;
+    
 }
-#side-bar
+.side-bar
 {
     float: left;
     background-color: #2dcc70;
@@ -77,57 +91,68 @@ body
 {
     color: white;
 }
-#present-date
+.present-date
 {
     font-weight: 700;
     font-size: 200px;
     font-family: Verdana;
     padding-left: 80px;
-    margin: 0 auto;
+    margin-top:-40px;
   
 }
-#present-day
+.present-day
 {
    font-family: Verdana;
-   padding-left: 80px;
+   padding-left: 100px;
    border:none;
-   
-  
+   margin-top:-70px;
+
 }
-#current-events
+.current-events
 {
     padding-left: 30px;
     font-size: 20px;
     color:#d8e1e3;
 
 }
+
 li
 {
-  padding-left:40px;
+    list-style: square;
+}
+.event-day
+{
+  padding-left:60px;
   padding-top:10px;
   padding-bottom: 10px;
   font-size: 20px;
   color:#d8e1e3;
 }
-#post-events
+.post-events
 {
-  text-decoration: underline;
   padding-left: 30px;
+  font-size:20px ;
   color:#d8e1e3;
 }
 
-#create-event
+.create-event
 {
     font-size: 28px; 
     color:#d8e1e3;
-    padding-top: 150px;
     padding-left:30px ;
-    margin: 0 auto;
+
+}
+.plus
+{
+    padding-left: 170px;
+    padding-bottom: 10px;
 }
 
-#side-bar hr
+.side-bar hr
 {
     border-bottom: 1px solid white;
     width: 90%;
+    margin-top: -0px;
+  
     
 }

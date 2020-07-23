@@ -7,27 +7,29 @@
         <!-- <script src="https://unpkg.com/feather-icons"></script> -->
     </head>
     <body>
-       
-          <div id="side-bar">
+         <div class="block">
+          <div class="side-bar">
             <nav class="navbar navbar-toggleable-md navbar-dark bg-fade">
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon" id="navbar"></span>
                 </button>
               </nav>
-              <p id="present-date">27</p>
-              <h1 id="present-day">THURSDAY</h1>
-              <a id="current-events">Current Events</a>
-              <ul>
-                  <li>Day 09 Daily CSS Image</li>
-              </ul>
-              <a id="post-events">See post events</a>
-              <br><br><br><br>
-              <a id="create-event">Create an Event</a>
+              <p class="present-date">27</p>
+              <h1 class="present-day">THURSDAY</h1>
+              <br><br>
+              <a class="current-events">Current Events</a>
+                  <li class="event-day"> Day 09 Daily CSS Image</li>
+              <a class="post-events">See post events</a>
+              <br><br><br><br><br>
+              <a class="create-event">Create an Event</a>
+              <img class="plus" src="Icons/plus-circle.svg">
               <hr>
           </div>
-          <div id="main-block">
+          <div class="main-block">
             <div class="year">
-                <a id="year">2017</a>
+                <img src="Icons/chevron-left.svg">
+                   <a>2017</a>
+                <img src="Icons/chevron-right.svg">
             </div>
             <div class="calendar">
               <div class="container">
@@ -43,7 +45,7 @@
                          <h5>Mar</h5>
                     </div>
                     <div class="col-md-1">
-                          <h5>Apr</h5>
+                         <h5 class="highlighted-month">Apr</h5>
                     </div>
                     <div class="col-md-1">
                         <h5>May</h5>
@@ -254,9 +256,9 @@
                 </div>
             </div>
         </div>
-     </div>
-
-                
+      </div>
+    </div>
+          
 
     </body>
 </html>
