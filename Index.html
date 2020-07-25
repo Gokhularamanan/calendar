@@ -4,272 +4,266 @@
         <title>Calendar</title>
         <link rel="stylesheet" href="css/style.css">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"> 
-        <!-- <script src="https://unpkg.com/feather-icons"></script> -->
-    </head> 
-      <body> 
-         <div class="container-fluid">
-          <div class="conatiner">
-             <div class="row-md  side-block">
-                 <div class="col">
-                 <nav class="navbar navbar-toggleable-md navbar-dark bg-fade">
-                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon" id="navbar"></span>
-                 </button>
-                 </nav>
-                 </div>
-                <div class="col">
-                <p class="present-date">27</p>
-                <h1 class="present-day">THURSDAY</h1>
-                </div>
-                <br>
-                <div class="col">
-                <a class="current-events">Current Events</a>
-                    <li class="event-day"> Day 09 Daily CSS Image</li>
-                <a class="post-events">See post events</a>
-                </div>
-                <br><br><br><br>
-                <div class="col">
-                <a class="create-event">Create an Event</a>
-                <img class="plus" src="Icons/plus-circle.svg">
-                <hr>
-                </div>
-             </div>
-           </div>
-        </div>
-        <div class="container-fluid">
-        <div class="container">
-        <div class="row main-block">
-            <div class="col year">
-                <img src="Icons/chevron-left.svg">
-                   <a>2017</a>
-                <img src="Icons/chevron-right.svg">
-            </div>
-            <div class="calendar">
-              <div class="container">
-                <div class="row" id="month">
-                    <div class="col-md-1">
-                        <h5>Jan</h5>
+    </head>
+    <body>
+     <!-- <div class="fluid-container"> -->
+        <!-- <div class="container"> -->
+            <div class="row">
+                <div class="col-sm-4 side-block">
+                    <br>
+                    <nav class="navbar navbar-toggleable-md navbar-dark bg-fade">
+                        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon" id="navbar"></span>
+                        </button>
+                        </nav>
+                        
+               
+                       <p class="present-date">27</p>
+                       <h1 class="present-day">THURSDAY</h1>
+                      
+                       <br>
+                      
+                       <a class="current-events">Current Events</a>
+                           <li class="event-day"> Day 09 Daily CSS Image</li>
+                       <a class="post-events">See post events</a>
+                       
+                       <br><br><br><br><br><br>
+                       
+                       <a class="create-event">Create an Event</a>
+                       <img class="plus" src="Icons/plus-circle.svg">
+                       <hr>
+                  </div>
+                  <div class="col-md-8 main-block">
+                        <div class="year">
+                        <img src="Icons/chevron-left.svg">
+                           <a>2017</a>
+                        <img src="Icons/chevron-right.svg">
+                       </div>
+                      <div class="calendar">
+                        <div class="container">
+                        <div class="row" id="month">
+                            <div class="col-md-1">
+                                <h5>Jan</h5>
+                            </div>
+                            <div class="col-md-1">
+                                <h5>Feb</h5>
+                            </div>
+                            <div class="col-md-1">
+                                 <h5>Mar</h5>
+                            </div>
+                            <div class="col-md-1">
+                                 <h5 class="highlighted-month">Apr</h5>
+                            </div>
+                            <div class="col-md-1">
+                                <h5>May</h5>
+                            </div>
+                            <div class="col-md-1">
+                                <h5>Jun</h5>
+                            </div>
+                            <div class="col-md-1">
+                                <h5>Jul</h5>
+                            </div>
+                            <div class="col-md-1">
+                                <h5>Aug</h5>
+                            </div>
+                            <div class="col-md-1">
+                                <h5>Sep</h5>
+                            </div>
+                            <div class="col-md-1">
+                                <h5>Oct</h5>
+                            </div>
+                            <div class="col-md-1">
+                                <h5>Nov</h5>
+                            </div>
+                            <div class="col-md-1">
+                                <h5>Dec</h5>
+                           </div>
+                        </div>
                     </div>
-                    <div class="col-md-1">
-                        <h5>Feb</h5>
+                    <br>
+                    <div class="container">
+                        <div class="row" id="week">
+                            <div class="col">
+                                <h4>SUN</h4>
+                            </div>
+                            <div class="col">
+                                <h4>MON</h4>
+                            </div>
+                            <div class="col">
+                                <h4>TUE</h4>
+                            </div>
+                            <div class="col">
+                                <h4>WED</h4>
+                            </div>
+                            <div class="col">
+                                <h4>THU</h4>
+                            </div>
+                            <div class="col">
+                                <h4>FRI</h4>
+                            </div>
+                            <div class="col pull-3">
+                                <h4>SAT</h4>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-1">
-                         <h5>Mar</h5>
+                    <br><br>
+                    <div class="container">
+                        <div class="row" id="date-r1">
+                            <div class="col" id="blur-date">
+                                <h5>26</h5>
+                            </div>
+                            <div class="col" id="blur-date">
+                                <h5>27</h5>
+                            </div>
+                            <div class="col" id="blur-date">
+                                <h5>28</h5>
+                            </div>
+                            <div class="col" id="blur-date">
+                                <h5>29</h5>
+                            </div>
+                            <div class="col" id="blur-date">
+                                <h5>30</h5>
+                            </div>
+                            <div class="col" id="blur-date">
+                                <h5>31</h5>
+                            </div>
+                            <div class="col">
+                                <h5>01</h5>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-1">
-                         <h5 class="highlighted-month">Apr</h5>
+                    <br>
+                    <div class="container">
+                        <div class="row" id="date-r2">
+                            <div class="col">
+                                <h5>02</h5>
+                            </div>
+                            <div class="col">
+                                <h5>03</h5>
+                            </div>
+                            <div class="col">
+                                <h5>04</h5>
+                            </div>
+                            <div class="col">
+                                <h5>05</h5>
+                            </div>
+                            <div class="col">
+                                <h5>06</h5>
+                            </div>
+                            <div class="col">
+                                <h5>07</h5>
+                            </div>
+                            <div class="col">
+                                <h5>08</h5>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-1">
-                        <h5>May</h5>
+                    <br>
+                    <div class="container">
+                        <div class="row" id="date-r3">
+                            <div class="col">
+                                <h5>09</h5>
+                            </div>
+                            <div class="col">
+                                <h5>10</h5>
+                            </div>
+                            <div class="col">
+                                <h5>11</h5>
+                            </div>
+                            <div class="col">
+                                <h5>12</h5>
+                            </div>
+                            <div class="col">
+                                <h5>13</h5>
+                            </div>
+                            <div class="col">
+                                <h5>`14</h5>
+                            </div>
+                            <div class="col">
+                                <h5>15</h5>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-1">
-                        <h5>Jun</h5>
+                    <br>
+                    <div class="container">
+                        <div class="row" id="date-r4">
+                            <div class="col">
+                                <h5>16</h5>
+                            </div>
+                            <div class="col">
+                                <h5>17</h5>
+                            </div>
+                            <div class="col">
+                                <h5>18</h5>
+                            </div>
+                            <div class="col">
+                                <h5>19</h5>
+                            </div>
+                            <div class="col">
+                                <h5>20</h5>
+                            </div>
+                            <div class="col">
+                                <h5>21</h5>
+                            </div>
+                            <div class="col">
+                                <h5>22</h5>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-1">
-                        <h5>Jul</h5>
+                    <br>
+                    <div class="container">
+                        <div class="row" id="date-r5">
+                            <div class="col">
+                                <h5>23</h5>
+                            </div>
+                            <div class="col">
+                                <h5>24</h5>
+                            </div>
+                            <div class="col">
+                                <h5>25</h5>
+                            </div>
+                            <div class="col">
+                                <h5>26</h5>
+                            </div>
+                            <div class="col">
+                                <h5><span class="badge badge-success">27</span></h5>
+                            </div>
+                            <div class="col">
+                                <h5>28</h5>
+                            </div>
+                            <div class="col">
+                                <h5>29</h5>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-1">
-                        <h5>Aug</h5>
-                    </div>
-                    <div class="col-md-1">
-                        <h5>Sep</h5>
-                    </div>
-                    <div class="col-md-1">
-                        <h5>Oct</h5>
-                    </div>
-                    <div class="col-md-1">
-                        <h5>Nov</h5>
-                    </div>
-                    <div class="col-md-1">
-                        <h5>Dec</h5>
-                   </div>
-                </div>
-            </div>
-            <br>
-            <div class="container">
-                <div class="row" id="week">
-                    <div class="col">
-                        <h4>SUN</h4>
-                    </div>
-                    <div class="col">
-                        <h4>MON</h4>
-                    </div>
-                    <div class="col">
-                        <h4>TUE</h4>
-                    </div>
-                    <div class="col">
-                        <h4>WED</h4>
-                    </div>
-                    <div class="col">
-                        <h4>THU</h4>
-                    </div>
-                    <div class="col">
-                        <h4>FRI</h4>
-                    </div>
-                    <div class="col pull-3">
-                        <h4>SAT</h4>
-                    </div>
-                </div>
-            </div>
-            <br><br>
-            <div class="container">
-                <div class="row" id="date-r1">
-                    <div class="col" id="blur-date">
-                        <h5>26</h5>
-                    </div>
-                    <div class="col" id="blur-date">
-                        <h5>27</h5>
-                    </div>
-                    <div class="col" id="blur-date">
-                        <h5>28</h5>
-                    </div>
-                    <div class="col" id="blur-date">
-                        <h5>29</h5>
-                    </div>
-                    <div class="col" id="blur-date">
-                        <h5>30</h5>
-                    </div>
-                    <div class="col" id="blur-date">
-                        <h5>31</h5>
-                    </div>
-                    <div class="col">
-                        <h5>01</h5>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="container">
-                <div class="row" id="date-r2">
-                    <div class="col">
-                        <h5>02</h5>
-                    </div>
-                    <div class="col">
-                        <h5>03</h5>
-                    </div>
-                    <div class="col">
-                        <h5>04</h5>
-                    </div>
-                    <div class="col">
-                        <h5>05</h5>
-                    </div>
-                    <div class="col">
-                        <h5>06</h5>
-                    </div>
-                    <div class="col">
-                        <h5>07</h5>
-                    </div>
-                    <div class="col">
-                        <h5>08</h5>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="container">
-                <div class="row" id="date-r3">
-                    <div class="col">
-                        <h5>09</h5>
-                    </div>
-                    <div class="col">
-                        <h5>10</h5>
-                    </div>
-                    <div class="col">
-                        <h5>11</h5>
-                    </div>
-                    <div class="col">
-                        <h5>12</h5>
-                    </div>
-                    <div class="col">
-                        <h5>13</h5>
-                    </div>
-                    <div class="col">
-                        <h5>`14</h5>
-                    </div>
-                    <div class="col">
-                        <h5>15</h5>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="container">
-                <div class="row" id="date-r4">
-                    <div class="col">
-                        <h5>16</h5>
-                    </div>
-                    <div class="col">
-                        <h5>17</h5>
-                    </div>
-                    <div class="col">
-                        <h5>18</h5>
-                    </div>
-                    <div class="col">
-                        <h5>19</h5>
-                    </div>
-                    <div class="col">
-                        <h5>20</h5>
-                    </div>
-                    <div class="col">
-                        <h5>21</h5>
-                    </div>
-                    <div class="col">
-                        <h5>22</h5>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="container">
-                <div class="row" id="date-r5">
-                    <div class="col">
-                        <h5>23</h5>
-                    </div>
-                    <div class="col">
-                        <h5>24</h5>
-                    </div>
-                    <div class="col">
-                        <h5>25</h5>
-                    </div>
-                    <div class="col">
-                        <h5>26</h5>
-                    </div>
-                    <div class="col">
-                        <h5><span class="badge badge-success">27</span></h5>
-                    </div>
-                    <div class="col">
-                        <h5>28</h5>
-                    </div>
-                    <div class="col">
-                        <h5>29</h5>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="container">
-                <div class="row" id="date-r6">
-                    <div class="col">
-                        <h5>30</h5>
-                    </div>
-                    <div class="col" id="blur-date">
-                        <h5>01</h5>
-                    </div>
-                    <div class="col" id="blur-date">
-                        <h5>02</h5>
-                    </div>
-                    <div class="col" id="blur-date">
-                        <h5>03</h5>
-                    </div>
-                    <div class="col" id="blur-date">
-                        <h5>04</h5>
-                    </div>
-                    <div class="col" id="blur-date">
-                        <h5>05</h5>
-                    </div>
-                    <div class="col" id="blur-date">
-                        <h5>06</h5>
-                    </div>
+                    <br>
+                    <div class="container">
+                        <div class="row" id="date-r6">
+                            <div class="col">
+                                <h5>30</h5>
+                            </div>
+                            <div class="col" id="blur-date">
+                                <h5>01</h5>
+                            </div>
+                            <div class="col" id="blur-date">
+                                <h5>02</h5>
+                            </div>
+                            <div class="col" id="blur-date">
+                                <h5>03</h5>
+                            </div>
+                            <div class="col" id="blur-date">
+                                <h5>04</h5>
+                            </div>
+                            <div class="col" id="blur-date">
+                                <h5>05</h5>
+                            </div>
+                            <div class="col" id="blur-date">
+                                <h5>06</h5>
+                            </div>
+                        </div>
                 </div>
             </div>
-         </div>
-       </div>
-     </div>
-     </div>
-   </body>
+      </div>
+    </div>
+    </body>
 </html>
