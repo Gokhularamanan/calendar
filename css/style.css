@@ -1,20 +1,20 @@
 body
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top:40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    background-color: darkgreen;
+    
 }
-
-/* .block
-{
-   margin:50px;
-   background-color: #2ecc71;
-} */
-
 
 .main-block 
 {
-    float:right;
-    width:65%;
-    
+    width:100%;
+    margin-top: -340px; 
+    margin-left: 390px;
+    height: 100vh;
 }
 
 .year
@@ -79,13 +79,15 @@ body
     padding-bottom: 10px;
     
 }
-.side-bar
+.side-block
 {
-    float: left;
     background-color: #2dcc70;
-    width: 30%;
-    height:720px;
+    width:35%;
+    height:100vh;
     color: white;
+    padding: 5px;
+  
+
 }
 #navbar
 {
@@ -144,15 +146,14 @@ li
 }
 .plus
 {
-    padding-left: 170px;
-    padding-bottom: 10px;
+    padding-left: 400px;
+    padding-bottom: 30px;
 }
 
-.side-bar hr
+.side-block hr
 {
     border-bottom: 1px solid white;
     width: 90%;
-    margin-top: -0px;
+    margin-top: 0px;
   
-    
 }
