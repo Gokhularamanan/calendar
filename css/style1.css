@@ -1,0 +1,27 @@
+.body
+{
+    background-color: indigo !important;
+    margin:70px 100px;
+}
+
+
+.side-block
+{
+    background-color: green;
+    height: 100vh;
+    width:100%;
+    /* margin: 70px 100px;
+    border: 60px 50px; */
+    /* padding-bottom: 50px; */
+    
+}
+
+.main-block
+{
+    background-color: gray;
+    height:100vh;
+    width:100%;
+    /* margin-top:-792px;
+    margin-left: 600px; */
+
+}
